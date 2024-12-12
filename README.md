@@ -171,11 +171,11 @@ print(f'Imagem anotada salva em: {output_image_path}')
 
 1. Coloque a imagem do elenco de "**O Senhor dos Anéis**" na pasta **input** com o nome **elenco.jpg**.
 
-![elenco]()
+![elenco](https://github.com/devcaiada/facial-recognition-lotr/blob/main/input/elenco.jpg?raw=true)
 
 2. Coloque as imagens dos personagens na pasta **images** com os respectivos nomes de arquivo (**frodo.jpg**, **sam.jpg**, etc.).
 
-![images]()
+![images](https://github.com/devcaiada/facial-recognition-lotr/blob/main/assets/images.png?raw=true)
 
 3. Execute o script:
 
@@ -183,11 +183,17 @@ print(f'Imagem anotada salva em: {output_image_path}')
 python recognize_faces.py
 ```
 
-![retorno]()
+Nesse teste não foi possível detectar a face do Gandalf. Tentei trocar a imagem de referência, fazer alguns ajustes, mas não consegui resolver o problema. Talvez por causa da barba, o modelo não conseguiu o reconhecer.
+
+#### Retorno
+
+![retorno](https://github.com/devcaiada/facial-recognition-lotr/blob/main/assets/retorno.png?raw=true)
 
 4. A imagem com as caixas delimitadoras e classificações será salva na pasta **output** com o nome **elenco_annotated.jpg**.
 
-![elenco_annotated]()
+![elenco_annotated](https://github.com/devcaiada/facial-recognition-lotr/blob/main/output/elenco_annotated.jpg?raw=true)
+
+Por não conseguir reconhecer a face de Gandalf, minha saída foi essa.
 
 ## Contribuição <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
 
